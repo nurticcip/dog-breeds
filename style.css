@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: sans-serif;
+    background: #FDF5E6;
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+input{
+    outline: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+button{
+   padding: 8px 12px ;
+   background: transparent;
+   border: 1px solid #4D5D53;
+   border-radius: 5px;
+}
+
+ion-icon{
+    width: 20px;
+    height: 20px;
+    color: #4D5D53;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed;
+    z-index: 2; */
+}
